@@ -113,7 +113,7 @@ This tool synthesizes guidance from the following authoritative sources. Users s
 
 ## Example Assessment
 
-See [assessments/GRC-News-Assistant-3-risk-assessment-2026-01-29.md](assessments/GRC-News-Assistant-3-risk-assessment-2026-01-29.md) for a complete assessment of an n8n-based news aggregation workflow with AI processing.
+See [assessments/GRC-News-Assistant-3-risk-assessment-2026-01-29.md](assessments/GRC-News-Assistant-3-risk-assessment-2026-01-29.md) for a complete assessment of [GRC News Assistant 3](https://github.com/CPAtoCybersecurity/GRC_News_Assistant_3), an n8n-based news aggregation workflow with AI processing.
 
 **Highlights from the example:**
 - Lethal Trifecta: 2 of 3 factors (no private data access)
