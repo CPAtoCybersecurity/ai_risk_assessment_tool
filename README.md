@@ -53,7 +53,6 @@ See [copilot-m365/README.md](copilot-m365/README.md) for detailed instructions.
 ```
 ai-risk-assessment-tool/
 ├── README.md                 # This file
-├── AI-Risk-Assessment-Tool.md # Original requirements
 ├── assets/                   # Core methodology files
 │   ├── methodology.md        # Risk framework, tiers, scales
 │   ├── security-checklist.md # 85 controls with NIST CSF mapping
@@ -65,7 +64,7 @@ ai-risk-assessment-tool/
 ├── copilot-m365/             # Microsoft Copilot deployment
 │   ├── README.md
 │   ├── system-prompt.md
-│   └── knowledge-files/      # Condensed versions for context limits
+│   └── knowledge-files/      # Condensed .txt versions for Copilot
 └── docs/plans/               # Design documentation
     └── 2026-01-29-ai-risk-assessment-tool-design.md
 ```

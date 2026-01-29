@@ -11,11 +11,11 @@ copilot-m365/
 ├── README.md                    # This file
 ├── system-prompt.md             # Agent configuration and system prompt
 └── knowledge-files/
-    ├── methodology.md           # Risk framework (condensed)
-    ├── security-checklist.md    # Controls checklist (condensed)
-    ├── stride-reference.md      # STRIDE quick reference
-    ├── threat-library.md        # Common threats
-    └── output-template.md       # Report format
+    ├── methodology.txt           # Risk framework (condensed)
+    ├── security-checklist.txt    # Controls checklist (condensed)
+    ├── stride-reference.txt      # STRIDE quick reference
+    ├── threat-library.txt        # Common threats
+    └── output-template.txt       # Report format
 ```
 
 ## Deployment Steps
@@ -50,11 +50,11 @@ copilot-m365/
 1. In Copilot Studio, go to **Knowledge** section
 2. Click **Add knowledge** → **Files**
 3. Upload all 5 files from the `knowledge-files/` folder:
-   - `methodology.md`
-   - `security-checklist.md`
-   - `stride-reference.md`
-   - `threat-library.md`
-   - `output-template.md`
+   - `methodology.txt`
+   - `security-checklist.txt`
+   - `stride-reference.txt`
+   - `threat-library.txt`
+   - `output-template.txt`
 
 ### 6. Configure Conversation Starters
 
@@ -135,7 +135,7 @@ Users can begin by saying:
 |-------|----------|
 | Agent doesn't find knowledge | Verify files uploaded, check file format |
 | Responses too generic | Make instructions more specific |
-| Missing methodology steps | Ensure methodology.md is uploaded |
+| Missing methodology steps | Ensure methodology.txt is uploaded |
 | Context limit errors | Condense knowledge files further |
 
 ## Support

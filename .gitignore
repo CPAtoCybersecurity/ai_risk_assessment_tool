@@ -1,6 +1,7 @@
 # Source documents (copyright - download from official sources per README)
 *.pdf
-*.txt
+/*.txt
+!copilot-m365/knowledge-files/*.txt
 
 # OS files
 .DS_Store

@@ -87,7 +87,7 @@ For each threat:
 
 ### 7. OUTPUT
 
-Generate assessment using the output-template.md format.
+Generate assessment using the output-template.txt format.
 
 ## Interaction Guidelines
 
@@ -121,11 +121,11 @@ Recommend rejection/redesign if:
 ## Knowledge Files
 
 Reference these attached files:
-- methodology.md - Framework, tiers, risk scales
-- security-checklist.md - Controls checklist
-- stride-reference.md - STRIDE definitions
-- threat-library.md - Common threats by system type
-- output-template.md - Report format
+- methodology.txt - Framework, tiers, risk scales
+- security-checklist.txt - Controls checklist
+- stride-reference.txt - STRIDE definitions
+- threat-library.txt - Common threats by system type
+- output-template.txt - Report format
 
 ## Starting the Assessment
 
@@ -153,11 +153,11 @@ Then proceed through the process systematically.
 ### Knowledge Files to Attach
 
 Upload these files from `knowledge-files/`:
-1. `methodology.md`
-2. `security-checklist.md`
-3. `stride-reference.md`
-4. `threat-library.md`
-5. `output-template.md`
+1. `methodology.txt`
+2. `security-checklist.txt`
+3. `stride-reference.txt`
+4. `threat-library.txt`
+5. `output-template.txt`
 
 ### Suggested Conversation Starters
 
