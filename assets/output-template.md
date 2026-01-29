@@ -1,0 +1,209 @@
+# Risk Assessment Output Template
+
+Use this template to document AI/agentic system risk assessments.
+
+---
+
+```markdown
+# [System Name] Risk Assessment
+
+**Assessment Date:** YYYY-MM-DD
+**Assessor:** [Name]
+**Tier:** 1 / 2 / 3
+**Status:** Draft / Pending Approval / Approved / Risk Accepted
+
+---
+
+## Executive Summary
+
+[2-3 sentences: What was assessed, key findings, overall risk rating, recommendation]
+
+**Overall Risk Rating:** Low / Medium / High / Critical
+
+**Recommendation:** Approve / Approve with Conditions / Reject / Defer
+
+---
+
+## Lethal Trifecta Check
+
+| Factor | Present | Details |
+|--------|---------|---------|
+| Private data access | Yes / No | [Describe: databases, emails, APIs, files, credentials] |
+| Untrusted input | Yes / No | [Describe: webhooks, emails, Slack, public APIs, user content] |
+| External communication | Yes / No | [Describe: HTTP requests, posting to GitHub/Slack, sending emails] |
+
+**Trifecta Status:**
+- [ ] All three present (Elevated risk - Tier 3 required)
+- [ ] Two factors present (High scrutiny required)
+- [ ] One or none (Standard assessment)
+
+---
+
+## Business Objective
+
+[Why does this system exist? What problem does it solve? Who benefits?]
+
+---
+
+## Use Cases
+
+[Primary user workflows and interactions]
+
+1. [Use case 1]
+2. [Use case 2]
+3. [Use case 3]
+
+---
+
+## Architecture & Deployment
+
+### System Components
+
+| Component | Type | Description |
+|-----------|------|-------------|
+| | LLM / Agent / Tool / Database / API / etc. | |
+
+### Architecture / Data Flow Diagram
+
+```mermaid
+flowchart LR
+    User --> UI[User Interface]
+    UI --> API[API Gateway]
+    API --> Agent[AI Agent]
+    Agent --> LLM[LLM Model]
+    Agent --> Tools[Tools/Functions]
+    Agent --> RAG[RAG/Vector DB]
+    Tools --> External[External APIs]
+```
+
+[Or insert image reference]
+
+### Authentication
+
+[How users/systems authenticate - OAuth, API keys, SSO, etc.]
+
+### Trust Boundaries
+
+[Where trusted meets untrusted - diagram trust zones]
+
+### Assets
+
+| Asset | Classification | Description |
+|-------|----------------|-------------|
+| | Public / Internal / Confidential / Strictly Confidential | |
+
+---
+
+## Threat Scenarios
+
+**Overall Residual Risk:** Low / Medium / High / Critical
+
+| ID | Threat Scenario | Likelihood | Impact | Risk | STRIDE | OWASP Ref |
+|----|-----------------|------------|--------|------|--------|-----------|
+| T1 | | V.Low/Low/Mod/High/V.High | V.Low/Low/Mod/High/V.High | Low/Med/High/Crit | S/T/R/I/D/E | LLM01/ASI01/etc |
+| T2 | | | | | | |
+| T3 | | | | | | |
+| T4 | | | | | | |
+| T5 | | | | | | |
+
+### Analysis Notes
+
+[Context on threat modeling decisions, assumptions made, areas of uncertainty]
+
+---
+
+## Remediation Actions
+
+| ID | Action | Priority | Owner | Due Date | Status | Linked Ticket |
+|----|--------|----------|-------|----------|--------|---------------|
+| R1 | | Critical/High/Medium/Low | | | Not Started / In Progress / Complete | |
+| R2 | | | | | | |
+| R3 | | | | | | |
+
+---
+
+## Security Checklist Summary
+
+[For full checklist, see security-checklist.md]
+
+### Critical Controls
+
+| Control Area | Status | Notes |
+|--------------|--------|-------|
+| Authentication | Pass / Fail / N/A | |
+| Authorization (RBAC) | Pass / Fail / N/A | |
+| Data encryption (transit) | Pass / Fail / N/A | |
+| Data encryption (rest) | Pass / Fail / N/A | |
+| Input validation | Pass / Fail / N/A | |
+| Prompt injection defense | Pass / Fail / N/A | |
+| Tool permission scoping | Pass / Fail / N/A | |
+| Human-in-the-loop | Pass / Fail / N/A | |
+| Audit logging | Pass / Fail / N/A | |
+| Kill switch capability | Pass / Fail / N/A | |
+
+**Checklist Completion:** X/Y controls assessed
+
+---
+
+## Approval
+
+| Role | Name | Decision | Date | Signature |
+|------|------|----------|------|-----------|
+| Assessor | | Assessment Complete | | |
+| Security Lead | | Approve / Reject / Risk Accept | | |
+| Risk Owner | | Accept Residual Risk | | |
+
+---
+
+## Appendix
+
+### Assumptions Made
+
+[List assumptions made during assessment that require validation]
+
+1. [Assumption 1] - [Impact if incorrect]
+2. [Assumption 2] - [Impact if incorrect]
+
+### Open Questions
+
+[Questions that could not be answered during assessment]
+
+1. [Question 1]
+2. [Question 2]
+
+### References
+
+- NIST SP 800-30: Risk Assessment Methodology
+- OWASP Top 10 for LLM Applications 2025
+- OWASP Top 10 for Agentic Applications 2026
+- [Additional references]
+
+### Document History
+
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| 1.0 | YYYY-MM-DD | | Initial assessment |
+```
+
+---
+
+## Template Usage Notes
+
+### Tier 1 (Quick Triage)
+Complete only:
+- Executive Summary
+- Lethal Trifecta Check
+- Business Objective
+- Top 5 Threat Scenarios
+- Critical Controls summary
+- Approval (Assessor only)
+
+### Tier 2 (Standard Assessment)
+Complete all sections with moderate detail.
+
+### Tier 3 (Deep Dive)
+Complete all sections with full detail, plus:
+- Detailed attack path narratives
+- Full data flow diagrams with trust boundaries
+- Compliance mapping appendix
+- Control effectiveness recommendations

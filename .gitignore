@@ -1,0 +1,14 @@
+# Source documents (copyright - download from official sources per README)
+*.pdf
+*.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
