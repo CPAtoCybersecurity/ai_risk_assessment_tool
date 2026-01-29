@@ -12,4 +12,7 @@ Thumbs.db
 *~
 .vscode/
 .idea/
-AI-Risk-Assessment-Tool.md
+
+# Private/draft files
+drafts/
+*.private.md
