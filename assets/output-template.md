@@ -1,10 +1,10 @@
+`````markdown
 # Risk Assessment Output Template
 
 Use this template to document AI/agentic system risk assessments.
 
 ---
 
-```markdown
 # [System Name] Risk Assessment
 
 **Assessment Date:** YYYY-MM-DD
@@ -183,7 +183,6 @@ flowchart LR
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | YYYY-MM-DD | | Initial assessment |
-```
 
 ---
 
@@ -207,3 +206,4 @@ Complete all sections with full detail, plus:
 - Full data flow diagrams with trust boundaries
 - Compliance mapping appendix
 - Control effectiveness recommendations
+`````
