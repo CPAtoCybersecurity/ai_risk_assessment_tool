@@ -18,7 +18,7 @@ Use this template to document AI/agentic system risk assessments.
 
 [2-3 sentences: What was assessed, key findings, overall risk rating, recommendation]
 
-**Overall Risk Rating:** Low / Medium / High / Critical
+**Overall Risk Rating:** Low / Moderate / High / Critical
 
 **Recommendation:** Approve / Approve with Conditions / Reject / Defer
 
@@ -96,11 +96,11 @@ flowchart LR
 
 ## Threat Scenarios
 
-**Overall Residual Risk:** Low / Medium / High / Critical
+**Overall Residual Risk:** Low / Moderate / High / Critical
 
 | ID | Threat Scenario | Likelihood | Impact | Risk | STRIDE | OWASP Ref |
 |----|-----------------|------------|--------|------|--------|-----------|
-| T1 | | V.Low/Low/Mod/High/V.High | V.Low/Low/Mod/High/V.High | Low/Med/High/Crit | S/T/R/I/D/E | LLM01/ASI01/etc |
+| T1 | | V.Low/Low/Mod/High/V.High | V.Low/Low/Mod/High/V.High | Low/Mod/High/Crit | S/T/R/I/D/E | LLM01/ASI01/etc |
 | T2 | | | | | | |
 | T3 | | | | | | |
 | T4 | | | | | | |
@@ -116,7 +116,7 @@ flowchart LR
 
 | ID | Action | Priority | Owner | Due Date | Status | Linked Ticket |
 |----|--------|----------|-------|----------|--------|---------------|
-| R1 | | Critical/High/Medium/Low | | | Not Started / In Progress / Complete | |
+| R1 | | Critical/High/Moderate/Low | | | Not Started / In Progress / Complete | |
 | R2 | | | | | | |
 | R3 | | | | | | |
 
