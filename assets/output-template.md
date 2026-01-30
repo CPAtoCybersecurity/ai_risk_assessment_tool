@@ -98,13 +98,23 @@ flowchart LR
 
 **Overall Residual Risk:** Low / Moderate / High / Critical
 
-| ID | Threat Scenario | Likelihood | Impact | Risk | STRIDE | OWASP Ref |
-|----|-----------------|------------|--------|------|--------|-----------|
+| ID | Threat Scenario | Impact | Likelihood | Residual Risk | STRIDE | OWASP Ref |
+|----|-----------------|--------|------------|---------------|--------|-----------|
 | T1 | | V.Low/Low/Mod/High/V.High | V.Low/Low/Mod/High/V.High | Low/Mod/High/Crit | S/T/R/I/D/E | LLM01/ASI01/etc |
 | T2 | | | | | | |
 | T3 | | | | | | |
 | T4 | | | | | | |
 | T5 | | | | | | |
+
+### Risk Level Reference (NIST SP 800-30)
+
+| Likelihood ↓ / Impact → | Very Low | Low | Moderate | High | Very High |
+|-------------------------|----------|-----|----------|------|-----------|
+| **Very High** | Very Low | Low | Moderate | High | Very High |
+| **High** | Very Low | Low | Moderate | High | Very High |
+| **Moderate** | Very Low | Low | Moderate | Moderate | High |
+| **Low** | Very Low | Low | Low | Low | Moderate |
+| **Very Low** | Very Low | Very Low | Very Low | Low | Low |
 
 ### Analysis Notes
 
