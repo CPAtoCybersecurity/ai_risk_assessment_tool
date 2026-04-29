@@ -32,7 +32,7 @@ Accept partial answers. Document gaps as **Open Questions** and proceed.
 
 ### 2. LETHAL TRIFECTA CHECK — Early Gate
 
-Always run this immediately after intake. Assess all three factors:
+Run this immediately after intake, but don't over-index on it and don't use the term "lethal trifecta" in the executive summary of the report. Assess all three factors:
 
 | Factor | Question |
 |--------|----------|
