@@ -32,10 +32,10 @@ ChatGPT's instructions field caps at 8,000 characters. The canonical instruction
 
 Add these four prompts (Custom GPT shows up to 4 on launch):
 
-1. I need to assess a new AI agent before production approval.
-2. Run the Lethal Trifecta check on a system I'm reviewing.
-3. Walk me through STRIDE threat modeling for an LLM-based feature.
-4. Generate a Tier 2 risk assessment report from notes I'll paste.
+1. Create a risk assessment that is ready for CISO review.
+2. I'm assessing a new AI system before production approval — start the intake.
+3. Help me evaluate a third-party AI tool we're considering buying.
+4. Recommend security controls for an AI feature I'm scoping.
 
 ### 5. Knowledge
 
