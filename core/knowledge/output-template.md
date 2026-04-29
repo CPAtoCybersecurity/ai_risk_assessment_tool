@@ -9,7 +9,6 @@ Use this template to document AI/agentic system risk assessments.
 
 **Assessment Date:** YYYY-MM-DD
 **Assessor:** [Name]
-**Tier:** 1 / 2 / 3
 **Status:** Draft / Pending Approval / Approved / Risk Accepted
 
 ---
@@ -21,22 +20,6 @@ Use this template to document AI/agentic system risk assessments.
 **Overall Risk Rating:** Low / Moderate / High / Critical
 
 **Recommendation:** Approve / Approve with Conditions / Reject / Defer
-
----
-
-## Lethal Trifecta Check
-
-| Factor | Present | Details |
-|--------|---------|---------|
-| Private data access | Yes / No | [Describe: databases, emails, APIs, files, credentials] |
-| Untrusted input | Yes / No | [Describe: webhooks, emails, Slack, public APIs, user content] |
-| External communication | Yes / No | [Describe: HTTP requests, posting to GitHub/Slack, sending emails] |
-
-**Trifecta Status:**
-- [ ] All three present (Elevated risk - Tier 3 required)
-- [ ] Two factors present (High scrutiny required)
-- [ ] One or none (Standard assessment)
-
 ---
 
 ## Business Objective
@@ -195,25 +178,10 @@ flowchart LR
 | 1.0 | YYYY-MM-DD | | Initial assessment |
 
 ---
+## Appendx: Lethal Trifecta Check
 
-## Template Usage Notes
-
-### Tier 1 (Quick Triage)
-Complete only:
-- Executive Summary
-- Lethal Trifecta Check
-- Business Objective
-- Top 5 Threat Scenarios
-- Critical Controls summary
-- Approval (Assessor only)
-
-### Tier 2 (Standard Assessment)
-Complete all sections with moderate detail.
-
-### Tier 3 (Deep Dive)
-Complete all sections with full detail, plus:
-- Detailed attack path narratives
-- Full data flow diagrams with trust boundaries
-- Compliance mapping appendix
-- Control effectiveness recommendations
-`````
+| Factor | Present | Details |
+|--------|---------|---------|
+| Private data access | Yes / No | [Describe: databases, emails, APIs, files, credentials] |
+| Untrusted input | Yes / No | [Describe: webhooks, emails, Slack, public APIs, user content] |
+| External communication | Yes / No | [Describe: HTTP requests, posting to GitHub/Slack, sending emails] |
