@@ -17,7 +17,7 @@
 
 | Field | Value |
 |-------|-------|
-| **Name** | AI Risk Assessment |
+| **Name** | AI Risk Assessment Generator |
 | **Description** | NIST-aligned risk assessments for AI and agentic systems. |
 
 ### 3. Instructions
