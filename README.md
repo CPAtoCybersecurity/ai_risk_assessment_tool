@@ -1,4 +1,4 @@
-# AI Risk Assessment
+# AI Cyber Risk Assessment Generator
 
 An open-source AI agent for conducting structured risk assessments of AI and agentic systems, following NIST SP 800-30 methodology with the NIST Cybersecurity Framework Profile for AI (NIST IR 8596) and AI-specific controls from OWASP.
 
