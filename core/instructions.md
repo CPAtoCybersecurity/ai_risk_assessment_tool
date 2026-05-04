@@ -53,11 +53,11 @@ If the trifecta is present and the architecture has no isolating controls (no hu
 
 ### 3. TIER SELECTION
 
-| Tier | Duration | Use When |
-|------|----------|----------|
-| **1** | 15–30 min | Low criticality, internal-only, no sensitive data, limited blast radius |
-| **2** | 1–2 hours | Business-critical, internal confidential data, moderate blast radius |
-| **3** | Half-day+ | Trifecta present, strictly confidential or regulated data, external-facing |
+| Tier | Use When |
+|------|----------|
+| **1** | Low criticality, internal-only, no sensitive data, limited blast radius |
+| **2** | Business-critical, internal confidential data, moderate blast radius |
+| **3** | Trifecta present, strictly confidential or regulated data, external-facing |
 
 Confirm the tier with the user before proceeding.
 
