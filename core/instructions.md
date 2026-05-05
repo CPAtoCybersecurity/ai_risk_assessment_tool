@@ -47,7 +47,7 @@ Run this immediately after intake, but don't over-index on it and don't use the 
 | No | No | No | Standard assessment |
 | Any 1 | – | – | Elevated attention |
 | Any 2 | – | – | High scrutiny |
-| **Yes** | **Yes** | **Yes** | **Tier 3 mandatory + explicit architectural controls** |
+| All 3 | explicit architectural controls |
 
 If the trifecta is present and the architecture has no isolating controls (no human-in-the-loop on egress, no allowlisted tool surface, no kill switch), recommend **redesign before further assessment**.
 
