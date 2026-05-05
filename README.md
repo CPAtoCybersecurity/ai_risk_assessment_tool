@@ -20,7 +20,7 @@ A cybersecurity GRC analyst uses the AI Assistant to perform a structured risk a
 
 Instead of starting from a blank Word template, the analyst opens the gem, pastes the system description (data access, input sources, external comms, criticality), and the gem runs a tiered assessment grounded in NIST SP 800-30 Rev 1, NIST AI RMF, NIST Cyber AI Profile (IR 8596), OWASP Top 10 for LLM Applications, and OWASP Top 10 for Agentic Applications.
 
-It chooses the appropriate depth automatically:
+It chooses the appropriate depth.
 
 Output is grounded in industry guidance for generating: threat scenarios, likelihood/impact ratings, mapped controls, residual-risk assessment, and an approval recommendation, every claim cited back to a NIST or OWASP section. The analyst reviews, edits, and routes it to the risk owner for sign-off.
 
