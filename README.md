@@ -16,7 +16,7 @@ Supports multiple platforms.
 
 ## Use Case
 
-A GRC analyst uses the AI Assistant to perform a structured risk assessment whenever the business asks for sign-off on a new AI or agentic system: a Copilot agent, an internal LLM workflow, a third-party AI vendor, an automation pulling production data, etc.
+A cybersecurity GRC analyst uses the AI Assistant to perform a structured risk assessment whenever the business asks for sign-off on a new AI or agentic system: a Copilot agent, an internal LLM workflow, a third-party AI vendor, an automation pulling production data, etc.
 
 Instead of starting from a blank Word template, the analyst opens the gem, pastes the system description (data access, input sources, external comms, criticality), and the gem runs a tiered assessment grounded in NIST SP 800-30 Rev 1, NIST AI RMF, NIST Cyber AI Profile (IR 8596), OWASP Top 10 for LLM Applications, and OWASP Top 10 for Agentic Applications.
 
