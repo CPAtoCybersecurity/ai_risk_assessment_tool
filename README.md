@@ -2,20 +2,7 @@
 
 An open-source AI agent for conducting structured risk assessments of AI and agentic systems, following NIST SP 800-30 methodology with the NIST Cybersecurity Framework Profile for AI (NIST IR 8596) and AI-specific controls from OWASP.
 
-**One agent. Five platforms. Pick the AI you already pay for.**
-
-## What it does
-
-This tool helps GRC professionals assess AI systems before production deployment by:
-
-- **Lethal Trifecta Analysis** — Mandatory early gate for high-risk combinations (private data + untrusted input + external communication)
-- **Tiered Assessment** — Right-sized evaluation based on system criticality (Tier 1 / 2 / 3)
-- **STRIDE Threat Modeling** — Systematic threat identification per architectural component
-- **OWASP Mapping** — Cross-reference to LLM Top 10 (2025) and Agentic Top 10 (2026)
-- **NIST CSF 2.0 Controls** — 85 controls mapped to CSF function IDs (GV / ID / PR / DE / RS / RC)
-- **Structured Output** — Consistent risk assessment documents with approval workflow
-
-## Pick your platform
+Supports multiple platforms. 
 
 | Platform | License needed | Best for | Install time |
 |----------|----------------|----------|--------------|
@@ -24,6 +11,65 @@ This tool helps GRC professionals assess AI systems before production deployment
 | **[Gemini Gem](platforms/gemini-gem/README.md)** | Google AI Pro / Workspace | Google-shop GRC teams | 5 min |
 | **[Custom GPT](platforms/custom-gpt/README.md)** | ChatGPT Plus / Team / Enterprise | Most familiar to GRC pros, cleanest sharing | 5 min |
 | **[Claude Code Skill](platforms/claude-code/README.md)** | Claude Pro / Max / Team | Power users on the CLI / VS Code | 2 min |
+
+# Elevator Pitch
+
+## Use Case
+
+A GRC analyst uses the AI Assistant to perform a structured risk assessment whenever the business asks for sign-off on a new AI or agentic system: a Copilot agent, an internal LLM workflow, a third-party AI vendor, an automation pulling production data, etc.
+
+Instead of starting from a blank Word template, the analyst opens the gem, pastes the system description (data access, input sources, external comms, criticality), and the gem runs a tiered assessment grounded in NIST SP 800-30 Rev 1, NIST AI RMF, NIST Cyber AI Profile (IR 8596), OWASP Top 10 for LLM Applications, and OWASP Top 10 for Agentic Applications.
+
+It chooses the appropriate depth automatically:
+
+Output is grounded in industry guidance for generating: threat scenarios, likelihood/impact ratings, mapped controls, residual-risk assessment, and an approval recommendation, every claim cited back to a NIST or OWASP section. The analyst reviews, edits, and routes it to the risk owner for sign-off.
+
+## Value Added
+
+### Time saved
+
+- First-draft assessment for a new AI system drops from 1–2 days of analyst time to 30–90 minutes of guided dialogue plus review.
+- Tier 1 reviews (the long tail — most internal AI requests) move from "schedule a meeting next week" to same-day turnaround.
+- Eliminates the analyst-by-analyst rediscovery of which framework section applies to AI-specific threats (prompt injection, tool abuse, data exfiltration via agent actions).
+
+### Quality improved
+
+- Every output cites NIST SP 800-30 / NIST AI Profile / OWASP by section — to me more defensible and less opinion-based.
+- Coverage of AI-specific threat patterns (Lethal Trifecta, STRIDE-for-agents, prompt injection, indirect injection, tool poisoning) is built in, analysts no longer need to remember which threats apply to which architecture.
+- Consistency across analysts and across business units — same input shape produces the same assessment shape, which is the foundation for portfolio-level AI risk reporting.
+
+### Manual steps eliminated
+
+- No more copy-pasting from a Word template.
+- No more hunting through NIST, OWASP and other industry guidance PDFs to find the right control reference.
+- No more separate threat-modeling exercise: STRIDE / Lethal Trifecta / OWASP-LLM are run as part of the same pass.
+
+### Strategic value
+
+- Gives organizations a repeatable on-ramp to assess the volume of AI requests that's coming 
+
+## Who benefits?
+
+- **Builders & Business Requestors**  anyone proposing or building a new AI use case can self-assess before opening a GRC ticket; they arrive with a pre-populated risk picture and known gaps already surfaced, so the conversation starts at "review and challenge" instead of "fill in the blanks." Same motion scales up to AI Centers of Excellence and product / engineering teams running pre-flight checks before formal review.
+- **Privacy / Data Protection** same agent runs a privacy-impact lens on AI systems handling personal data; PIA / DPIA prep collapses into the same dialogue.
+- **Security Architecture & TPRM**  vendor AI and third-party LLM intake reviews; the same Lethal Trifecta and OWASP-Agentic lens applies cleanly to vendor systems.
+
+Anywhere an AI system needs sign-off, this gem gives the reviewer a defensible first draft in minutes instead of days.
+
+# How to use it
+
+## What it does
+
+This tool helps GRC professionals assess AI systems before production deployment by:
+
+- **Lethal Trifecta Analysis** Mandatory early gate for high-risk combinations (private data + untrusted input + external communication)
+- **Tiered Assessment**  Right-sized evaluation based on system criticality (Tier 1 / 2 / 3)
+- **STRIDE Threat Modeling**  Systematic threat identification per architectural component
+- **OWASP Mapping**  Cross-reference to LLM Top 10 (2025) and Agentic Top 10 (2026)
+- **NIST CSF 2.0 Controls**  85 controls mapped to CSF function IDs (GV / ID / PR / DE / RS / RC)
+- **Structured Output** Consistent risk assessment documents with approval workflow
+
+## Pick your platform
 
 Same methodology, same knowledge base, same output format on every platform.
 
