@@ -17,9 +17,9 @@ Use this template to document AI/agentic system risk assessments.
 
 [2-3 sentences: What was assessed, key findings, overall risk rating, recommendation]
 
-**Overall Risk Rating:** Low / Moderate / High / Critical
+**Overall Risk Rating:** Low / Moderate / High / Very High
 
-**Recommendation:** Approve / Approve with Conditions / Reject / Defer
+**Recommendation:** Approve / Approve with Treatment Plan / Reject / Defer
 ---
 
 ## Business Objective
